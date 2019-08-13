@@ -31,6 +31,7 @@ public class Validatetext extends Base {
 		System.out.println(Lp.gettext().getText());
 		AssertJUnit.assertEquals("Sign Up1", Lp.gettext().getText());
 		log.info("succesfully validated");
+		log.debug("not validated");
 		
 		
 		
