@@ -29,7 +29,7 @@ public class Validationtitle extends Base {
 		
 		AssertJUnit.assertTrue(Lp.gettitle().isDisplayed());
 		log.info("displayed");
-		
+		log.debug("not log");
 		
 		
 		
