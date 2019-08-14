@@ -22,6 +22,7 @@ public class Validatetext extends Base {
 		log.info("driver is initialized");
 		driver.get("http://www.facebook.com/");
 		log.info("navigated to homepage");
+		log.debug("hi");
 	}
 	@Test
 	public void basePageNavigation() throws IOException, InterruptedException
